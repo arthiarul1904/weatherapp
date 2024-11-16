@@ -1,5 +1,5 @@
 {
-  "homepage": "https://arthiarul1904.github.io/React",
+  "homepage": "https://arthiarul1904.github.io/weatherapp",
   "name": "weather",
   "private": true,
   "version": "0.0.0",
@@ -8,9 +8,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "start": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "preview": "vite preview",
     "predeploy":"npm run build",
-    "deploy":"gh-pages-d build"
+    "deploy":"gh-pages -d dist"
+    
   },
   "dependencies": {
     "react": "^18.3.1",
